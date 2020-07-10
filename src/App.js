@@ -34,7 +34,7 @@ state ={
             <div className={styles.container}>
                 <Cards data ={data} />
                 <CountryPicker handleCountryChange={this.handleCountryChange}/>
-                <Chart />
+                
             </div>
         )
     }
