@@ -20,7 +20,7 @@ if(!confirmed) {
         <CountUp start={0} end={confirmed.value} duration={2.5} separator=','/>
     </Typography>
     <Typography color = 'textSecondary'>{new Date(lastUpdate).toDateString()}</Typography>
-                        <Typography variant='body2'>Number of active cases</Typography>
+                        <Typography variant='body2'>number of active cases</Typography>
                     </CardContent>
                 </Grid>
                 <Grid item component={Card} xs={12} md={3} className={cx(styles.card, styles.recovered)}>
@@ -30,7 +30,7 @@ if(!confirmed) {
         <CountUp start={0} end={recovered.value} duration={2.5} separator=','/>
     </Typography>
     <Typography color = 'textSecondary'>{new Date(lastUpdate).toDateString()}</Typography>
-                        <Typography variant='body2'>Number of recovered cases</Typography>
+                        <Typography variant='body2'>number of recovery cases</Typography>
                     </CardContent>
                 </Grid>
                 <Grid item component={Card} xs={12} md={3} className={cx(styles.card, styles.deaths)}>
@@ -40,7 +40,7 @@ if(!confirmed) {
         <CountUp start={0} end={deaths.value} duration={2.5} separator=','/>
     </Typography>
     <Typography color = 'textSecondary'>{new Date(lastUpdate).toDateString()}</Typography>
-                        <Typography variant='body2'>Number of death cases</Typography>
+                        <Typography variant='body2'>number of death cases</Typography>
                     </CardContent>
                 </Grid>
 
